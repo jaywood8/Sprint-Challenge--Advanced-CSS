@@ -1,1 +1,24 @@
 // Navigation code here
+.nav-container {
+    margin: 0 auto;
+    padding: rem;
+    width: 100%;
+    .flexed(column, space-between, center);
+    background-color: @nav-bg;
+    border: .5px solid @nav-border;
+
+    .comp-name {
+        margin: 1.5% auto;
+    }
+
+    nav{
+        width: 400px;
+        margin: 1.5% auto;
+        .flexed(row, space-between, center);
+        a {
+          .nav-font();  
+          font-size: 14px;
+        }
+    }
+ 
+}
